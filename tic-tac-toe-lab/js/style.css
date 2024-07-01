@@ -1,0 +1,52 @@
+/* CSS */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+background-color: darkmagenta;
+}
+
+
+/* Game Board Styles */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+.cell {
+  background-color: #c5ef0a;
+  border: 1px solid #060606;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #f7f7f7;
+}
+
+/* Message Styles */
+#status {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Reset Button Styles */
+#resetBtn {
+  background-color: #44af47;
+  color: #e00b0b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background-color: #3e8e41;
+}
